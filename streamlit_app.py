@@ -204,7 +204,7 @@ def main():
                     st.sidebar.warning('クラス/学年を入力してください。')
  
             # タブによる学習データ、日課表、学習ゲーム、AIの表示
-            tab1, tab2, tab3, tab4, tab5, tab6 ,tab7= st.tabs(["学習データ", "AI","オープンチャット" ,"学習ゲーム", "日課表", "to do リスト", "カレンダー"])
+            # tab1, tab2, tab3, tab4, tab5, tab6 ,tab7= st.tabs(["hennkoudekiteru?_", "AI","オープンチャット" ,"学習ゲーム", "日課表", "to do リスト", "カレンダー"])
  
             with tab1:
                 # 学習データ入力フォーム
